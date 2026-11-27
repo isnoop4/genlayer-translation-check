@@ -1,0 +1,26 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "deployer": "0xfD7d408f5Cc0A4d507bDc41c48B4A00A8C9Fc399",
+  "deployTx": "0x8d02a4c9fd618daf077a70a80419122e1e53e59e9134804dd16bad4aedb6d291",
+  "deployFinalized": true,
+  "deployStatus": "FINALIZED",
+  "deployResult": "MAJORITY_AGREE",
+  "deployExecution": "FINISHED_WITH_RETURN",
+  "contractAddress": "0x2220B723aE3F61afD7e17667C49721e4FE2DAbb4",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x2220B723aE3F61afD7e17667C49721e4FE2DAbb4",
+  "constructorArgs": {
+    "faithful_score": 85,
+    "distorted_score": 60,
+    "score_band": 10
+  },
+  "params": {
+    "distorted_score": 60,
+    "faithful_score": 85,
+    "min_meaning": 50,
+    "min_subscore": 70,
+    "score_band": 10
+  },
+  "verified": true
+}

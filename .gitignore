@@ -1,0 +1,27 @@
+# Private keys, keystores, env files: never commit these.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+keystore*.json
+keypair*.json
+id_rsa*
+id_ed25519*
+*secret*
+deployment.local.json
+
+# Python / Node tooling
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+
+# Local run artefacts
+*.log
+
+# node_modules here is a symlink to an existing install
+node_modules

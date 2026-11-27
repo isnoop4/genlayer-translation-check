@@ -1,0 +1,17 @@
+{
+  "name": "genlayer-translation-check",
+  "version": "1.0.0",
+  "description": "TranslationCheck - on-chain translation fidelity verdicts on GenLayer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "node deploy/deploy.mjs",
+    "interact": "node deploy/interact.mjs",
+    "test:logic": "python3 tests/test_logic.py",
+    "test": "python -m pytest tests/ -v",
+    "lint": "genvm-lint check contracts/translation_check.py"
+  },
+  "dependencies": {
+    "genlayer-js": "^2.2.0"
+  }
+}
